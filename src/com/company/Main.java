@@ -38,7 +38,7 @@ public class Main {
 
             if (digit > 9) {
                 sumofEvenPlaces += 1;
-                sumofEvenPlaces += (digit - 10);
+                sumofEvenPlaces += (digit %10);
             } else {
                 sumofEvenPlaces += digit;
             }
